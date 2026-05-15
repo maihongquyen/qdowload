@@ -104,7 +104,3 @@ with tab2:
                                            use_container_width=True)
                 except Exception as e:
                     st.error(f"Lỗi: {str(e)}")
-
-st.divider()
-st.info("💡 Tab 1: Tải từ MXH | Tab 2: Nén video | Lần đầu dùng sẽ tự cài package")
-st.caption("Streamlit Cloud giới hạn upload ~500MB. Muốn file lớn hơn thì DAN làm version local cho mày.")
