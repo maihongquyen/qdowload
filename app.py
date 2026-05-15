@@ -20,7 +20,6 @@ install_packages()
 st.set_page_config(page_title="DAN All-in-One", page_icon="🚀", layout="centered")
 
 st.title("🌍 DAN ALL-IN-ONE TOOL")
-st.caption("Tải MXH + Nén Video • Giống Snaptik • Made by DAN 🔥")
 
 tab1, tab2 = st.tabs(["🚀 TẢI VIDEO TỪ MXH", "🗜️ NÉN VIDEO"])
 
@@ -30,7 +29,7 @@ with tab1:
     url = st.text_input("📋 Dán link vào đây:", 
                         placeholder="https://www.tiktok.com/@... hoặc https://www.instagram.com/reel/...")
 
-    if st.button("🚀 TẢI NGAY - DAN MODE", type="primary", use_container_width=True):
+    if st.button("🚀 TẢI NGAY", type="primary", use_container_width=True):
         if not url:
             st.error("❌ Dán link trước!")
         else:
