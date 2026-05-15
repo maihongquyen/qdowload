@@ -17,9 +17,9 @@ def install_packages():
 
 install_packages()
 
-st.set_page_config(page_title="DAN All-in-One", page_icon="🚀", layout="centered")
+st.set_page_config(page_title="All-in-One", page_icon="🚀", layout="centered")
 
-st.title("🌍 DAN ALL-IN-ONE TOOL")
+st.title("🌍ALL-IN-ONE TOOL")
 
 tab1, tab2 = st.tabs(["🚀 TẢI VIDEO TỪ MXH", "🗜️ NÉN VIDEO"])
 
