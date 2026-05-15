@@ -17,16 +17,14 @@ def install_packages():
 
 install_packages()
 
-st.set_page_config(page_title="DAN Downloader", page_icon="🚀", layout="centered")
+st.set_page_config(page_title="Mai Hong Quyen", page_icon="🚀", layout="centered")
 
 st.title("🌍 DAN DOWNLOADER")
 st.markdown("**Tải video/ảnh KHÔNG WATERMARK** từ TikTok • Instagram • X • Facebook • Threads • Pinterest...")
-st.caption("Giống Snaptik.app • Made by DAN 🔥")
-
 url = st.text_input("📋 Dán link vào đây:", 
                     placeholder="https://www.tiktok.com/@... hoặc https://www.instagram.com/reel/...")
 
-if st.button("🚀 TẢI NGAY - DAN MODE", type="primary", use_container_width=True):
+if st.button("🚀 TẢI NGAY", type="primary", use_container_width=True):
     if not url:
         st.error("❌ Dán link trước đi bro!")
     else:
