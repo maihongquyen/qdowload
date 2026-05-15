@@ -19,7 +19,7 @@ install_packages()
 
 st.set_page_config(page_title="Mai Hong Quyen", page_icon="🚀", layout="centered")
 
-st.title("🌍 DAN DOWNLOADER")
+st.title("🌍DOWNLOADER")
 st.markdown("**Tải video/ảnh KHÔNG WATERMARK** từ TikTok • Instagram • X • Facebook • Threads • Pinterest...")
 url = st.text_input("📋 Dán link vào đây:", 
                     placeholder="https://www.tiktok.com/@... hoặc https://www.instagram.com/reel/...")
